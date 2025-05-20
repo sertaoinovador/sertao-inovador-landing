@@ -62,7 +62,7 @@ const Partners = () => {
           {/* Patrocinadores */}
           <div>
             <h3 className="text-xl font-semibold text-center mb-6">Apoiadores e Patrocinadores</h3>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4">
               <div className="p-3 bg-white rounded-lg shadow-sm flex items-center justify-center aspect-video">
                 <img src={prefeituraLogo} alt="Prefeitura de Salgueiro Logo" className="max-h-12 object-contain" />
               </div>
