@@ -64,22 +64,22 @@ const Partners = () => {
             <h3 className="text-xl font-semibold text-center mb-6">Apoiadores e Patrocinadores</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4">
               <div className="p-3 bg-white rounded-lg shadow-sm flex items-center justify-center aspect-video">
-                <img src={prefeituraLogo} alt="Prefeitura de Salgueiro Logo" className="max-h-12 object-contain" />
+                <img src={prefeituraLogo} alt="Prefeitura de Salgueiro Logo" className="max-h-36 w-auto object-contain" />
               </div>
               <div className="p-3 bg-white rounded-lg shadow-sm flex items-center justify-center aspect-video">
-                <img src={zohoLogo} alt="Zoho Logo" className="max-h-12 object-contain" />
+                <img src={zohoLogo} alt="Zoho Logo" className="max-h-24 w-auto object-contain" />
               </div>
               <div className="p-3 bg-white rounded-lg shadow-sm flex items-center justify-center aspect-video">
-                <img src={awsLogo} alt="AWS Logo" className="max-h-12 object-contain" />
+                <img src={awsLogo} alt="AWS Logo" className="max-h-24 w-auto object-contain" />
               </div>
               <div className="p-3 bg-white rounded-lg shadow-sm flex items-center justify-center aspect-video">
-                <img src={sicrediLogo} alt="Sicredi Logo" className="max-h-12 object-contain" />
+                <img src={sicrediLogo} alt="Sicredi Logo" className="max-h-24 w-auto object-contain" />
               </div>
               <div className="p-3 bg-white rounded-lg shadow-sm flex items-center justify-center aspect-video">
-                <img src={sudeneLogo} alt="Sudene Logo" className="max-h-12 object-contain" />
+                <img src={sudeneLogo} alt="Sudene Logo" className="max-h-24 w-auto object-contain" />
               </div>
               <div className="p-3 bg-white rounded-lg shadow-sm flex items-center justify-center aspect-video">
-                <img src={ministerioLogo} alt="Ministério do Empreendedorismo Logo" className="max-h-12 object-contain" />
+                <img src={ministerioLogo} alt="Ministério do Empreendedorismo Logo" className="max-h-24 w-auto object-contain" />
               </div>
             </div>
           </div>
