@@ -5,6 +5,7 @@ import sertaoMakerLogo from "../../public/lovable-uploads/sertao-maker.png";
 import propipLogo from "../../public/lovable-uploads/propip.png";
 import ifLogo from "../../public/lovable-uploads/if-sertao.png";
 import facepeLogo from "../../public/lovable-uploads/facepe.png";
+import sebraeLogo from "../../public/lovable-uploads/sebrae.svg";
 
 // New sponsor logos
 import prefeituraLogo from "../../public/lovable-uploads/prefeitura.png";
@@ -54,17 +55,21 @@ const Partners = () => {
                 <img src={ifLogo} alt="Instituto Federal Sertão Pernambucano Logo" className="max-h-16 object-contain" />
               </div>
               <div className="p-4 bg-white rounded-lg shadow-sm flex items-center justify-center aspect-video">
-                <img src={facepeLogo} alt="FACEPE Logo" className="max-h-16 object-contain" />
+                <img src={sebraeLogo} alt="SEBRAE Logo" className="max-h-16 object-contain" />
               </div>
+              
             </div>
           </div>
           
           {/* Patrocinadores */}
           <div>
             <h3 className="text-xl font-semibold text-center mb-6">Apoiadores e Patrocinadores</h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
+            <div className="flex flex-wrap justify-center gap-6">
               <div className="p-3 bg-white rounded-lg shadow-sm flex items-center justify-center aspect-video">
                 <img src={prefeituraLogo} alt="Prefeitura de Salgueiro Logo" className="max-h-36 w-auto object-contain" />
+              </div>
+               <div className="p-3 bg-white rounded-lg shadow-sm flex items-center justify-center aspect-video">
+                <img src={facepeLogo} alt="FACEPE Logo" className="max-h-24 w-auto object-contain" />
               </div>
               <div className="p-3 bg-white rounded-lg shadow-sm flex items-center justify-center aspect-video">
                 <img src={zohoLogo} alt="Zoho Logo" className="max-h-24 w-auto object-contain" />
