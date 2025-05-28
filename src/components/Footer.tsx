@@ -61,7 +61,7 @@ Link do edital: https://ifsertaope.edu.br/editais/edital-no-58-2025/</p>
             <div className="bg-white p-4 rounded-xl shadow-lg mx-auto">
               <img src={qrCodeImage} alt="QR Code para inscrição" className="w-48 h-48 object-cover" />
               <p className="text-black text-center mt-2 text-sm font-medium">
-                Acesse a página de inscrições pelo QR Code
+                Acesse a página de inscrições pelo QR Code.
               </p>
             </div>
             
