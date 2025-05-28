@@ -41,7 +41,7 @@ const Partners = () => {
           {/* Realizadores */}
           <div>
             <h3 className="text-xl font-semibold text-center mb-6">Realização e Execução</h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="flex flex-wrap justify-center gap-6">
               <div className="p-4 bg-white rounded-lg shadow-sm flex items-center justify-center aspect-video">
                 <img src={isaLogo} alt="ISA - Incubadora do Semiárido Logo" className="max-h-16 object-contain" />
               </div>
