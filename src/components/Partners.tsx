@@ -5,7 +5,7 @@ import sertaoMakerLogo from "../../public/lovable-uploads/sertao-maker.png";
 import propipLogo from "../../public/lovable-uploads/propip.png";
 import ifLogo from "../../public/lovable-uploads/if-sertao.png";
 import facepeLogo from "../../public/lovable-uploads/facepe.png";
-import sebraeLogo from "../../public/lovable-uploads/sebrae.svg";
+import sebraeLogo from "../../public/lovable-uploads/sebrae.png";
 
 // New sponsor logos
 import prefeituraLogo from "../../public/lovable-uploads/prefeitura.png";
