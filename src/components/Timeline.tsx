@@ -88,7 +88,7 @@ const Timeline = () => {
     <section id="metodologia" className="container-section bg-gray-50 relative">
       <div className="max-w-6xl mx-auto">
         <h2 className="section-heading">
-          Metodologia <span className="text-sertao-green">SerTão Inovador</span>
+          Metodologia<span className="text-sertao-green"> SerTão Inovador</span>
         </h2>
         
         <p className="section-subheading">
