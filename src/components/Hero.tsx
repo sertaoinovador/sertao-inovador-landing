@@ -55,7 +55,7 @@ Transforme suas ideias em inovação</h1>
           <div className="bg-white bg-opacity-80 backdrop-blur-sm rounded-xl p-4 mt-6 shadow-lg">
             <div className="text-center">
               <p className="text-lg font-bold text-sertao-green">Inscrições até 09/06/2025</p>
-              <p className="text-gray-700">Início: 09/07/2025 • Demoday: 29/09/2025</p>
+              <p className="text-gray-700">Início: 07/07/2025 • Demoday: 29/09/2025</p>
             </div>
           </div>
         </div>

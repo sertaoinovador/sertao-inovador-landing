@@ -167,7 +167,7 @@ const Timeline = () => {
             </div>
             <div className="p-4 bg-sertao-light rounded-lg">
               <p className="font-semibold text-lg">Início do programa</p>
-              <p className="text-xl font-bold text-sertao-green">09/07/2025</p>
+              <p className="text-xl font-bold text-sertao-green">07/07/2025</p>
             </div>
             <div className="p-4 bg-sertao-light rounded-lg">
               <p className="font-semibold text-lg">Demoday</p>
