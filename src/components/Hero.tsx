@@ -44,7 +44,7 @@ Transforme suas ideias em inovação</h1>
           <div className="flex flex-col sm:flex-row gap-4 mt-8 w-full sm:w-auto">
             <button onClick={scrollToContact} className="btn-primary flex items-center justify-center gap-2 text-lg">
               <Calendar className="h-5 w-5" />
-              <span>Inscreva-se Agora</span>
+              <span>Inscreva-se Agora </span>
             </button>
             
             <a href="#sobre" className="btn-secondary text-lg flex items-center justify-center">
