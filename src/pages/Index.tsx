@@ -6,6 +6,7 @@ import Timeline from '../components/Timeline';
 import Benefits from '../components/Benefits';
 import StartupInfo from '../components/StartupInfo';
 import FAQ from '../components/FAQ';
+import Schedule from '@/components/Schedule';
 import Partners from '../components/Partners';
 import Footer from '../components/Footer';
 import { Toaster } from "@/components/ui/sonner";
@@ -20,6 +21,7 @@ const Index = () => {
       <Timeline />
       <Benefits />
       <StartupInfo />
+      <Schedule />
       <FAQ />
       <Partners />
       <Footer />

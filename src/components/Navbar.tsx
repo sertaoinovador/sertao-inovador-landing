@@ -46,6 +46,9 @@ const Navbar = () => {
           <button onClick={() => scrollToSection('beneficios')} className="font-medium hover:text-sertao-green transition-colors">
             Benefícios
           </button>
+          <button onClick={() => scrollToSection('cronograma')} className="font-medium hover:text-sertao-green transition-colors">
+            Cronograma
+          </button>
           <button onClick={() => scrollToSection('faq')} className="font-medium hover:text-sertao-green transition-colors">
             FAQ
           </button>
@@ -76,6 +79,9 @@ const Navbar = () => {
             </button>
             <button onClick={() => scrollToSection('beneficios')} className="p-2 text-left font-medium hover:bg-gray-100 rounded-lg">
               Benefícios
+            </button>
+            <button onClick={() => scrollToSection('cronograma')} className="p-2 text-left font-medium hover:bg-gray-100 rounded-lg">
+              Cronograma
             </button>
             <button onClick={() => scrollToSection('faq')} className="p-2 text-left font-medium hover:bg-gray-100 rounded-lg">
               FAQ
