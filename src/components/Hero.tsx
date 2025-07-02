@@ -1,5 +1,6 @@
 import { Calendar } from 'lucide-react';
 import heroBackground from "../../public/lovable-uploads/bg-img.png"
+import { Download } from 'lucide-react';
 const logoPath = '/lovable-uploads/951e0319-0db8-4874-93aa-5a2b584aad6a.png';
 const Hero = () => {
   const scrollToContact = () => {
@@ -19,6 +20,7 @@ const Hero = () => {
       </div>
       
       {/* Content */}
+      
       <div className="container mx-auto px-4 relative z-10 text-center py-20">
         <div className="flex flex-col items-center justify-center space-y-6 max-w-4xl mx-auto">
           
@@ -59,8 +61,37 @@ Transforme suas ideias em inovação</h1>
             </div>
           </div>
         </div>
+
+      {/*Resultado */}
+      <section className="relative mt-8">
+            <div className="container mx-auto px-4">
+              <div className="max-w-2xl mx-auto text-center">
+                <div className="bg-white bg-opacity-70 backdrop-blur-sm rounded-xl p-4 mt-6 shadow-lg">
+                  <div className="flex items-center justify-center gap-4 mb-4">
+                    <h3 className="text-2xl md:text-3xl font-bold text-sertao-green">
+                      Resultado Preliminar já Disponível!
+                    </h3>
+                  </div>
+                  <p className="text-md text-gray-600 mb-6 leading-relaxed">
+                    Confira agora o resultado preliminar do processo seletivo do SerTão Inovador
+                  </p>
+                  <a 
+                    href="https://drive.usercontent.google.com/download?id=16STZ3iBMG3bQvAV1gZiIWXQjCPKZPohv&export=download&authuser=7&confirm=t&uuid=777a6502-1038-4fe2-baa5-79804e9a8ae7&at=AN8xHoqLnpv7NqIqm1MeaYqXXhb5:1751417639497"
+                    className="inline-flex items-center gap-3 bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white font-bold px-8 py-4 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 text-md"
+                  >
+                    <Download className="h-6 w-6 text-sm" />
+                    Baixar Resultado
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+      {/*Fim resultado */}
+      
       </div>
       
+      
+
       <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-white to-transparent z-10"></div>
     </div>;
 };
