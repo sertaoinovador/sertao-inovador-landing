@@ -1,6 +1,6 @@
 import { Calendar } from 'lucide-react';
 import heroBackground from "../../public/lovable-uploads/bg-img.png"
-import { Download } from 'lucide-react';
+import { CiViewList } from "react-icons/ci";
 const logoPath = '/lovable-uploads/951e0319-0db8-4874-93aa-5a2b584aad6a.png';
 const Hero = () => {
   const scrollToContact = () => {
@@ -75,12 +75,12 @@ Transforme suas ideias em inovação</h1>
                   <p className="text-md text-gray-600 mb-6 leading-relaxed">
                     Confira agora o resultado preliminar do processo seletivo do SerTão Inovador
                   </p>
-                  <a 
-                    href="https://drive.usercontent.google.com/download?id=16STZ3iBMG3bQvAV1gZiIWXQjCPKZPohv&export=download&authuser=7&confirm=t&uuid=777a6502-1038-4fe2-baa5-79804e9a8ae7&at=AN8xHoqLnpv7NqIqm1MeaYqXXhb5:1751417639497"
-                    className="inline-flex items-center gap-3 bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white font-bold px-8 py-4 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 text-md"
+                  <a target='_blank'
+                    href="https://ifsertaope.edu.br/wp-content/uploads/2025/05/Resultado_preliminar.pdf"
+                    className="inline-flex items-center gap-3 bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white font-normal px-8 py-4 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 text-md"
                   >
-                    <Download className="h-6 w-6 text-sm" />
-                    Baixar Resultado
+
+                    <CiViewList className='h-6 w-6 text-sm'/> Confira aqui!
                   </a>
                 </div>
               </div>
