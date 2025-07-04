@@ -1,6 +1,7 @@
 import { Calendar } from 'lucide-react';
 import heroBackground from "../../public/lovable-uploads/bg-img.png"
 import { CiViewList } from "react-icons/ci";
+import { TbChecklist } from "react-icons/tb";
 const logoPath = '/lovable-uploads/951e0319-0db8-4874-93aa-5a2b584aad6a.png';
 const Hero = () => {
   const scrollToContact = () => {
@@ -69,19 +70,30 @@ Transforme suas ideias em inovação</h1>
                 <div className="bg-white bg-opacity-70 backdrop-blur-sm rounded-xl p-4 mt-6 shadow-lg">
                   <div className="flex items-center justify-center gap-4 mb-4">
                     <h3 className="text-2xl md:text-3xl font-bold text-sertao-green">
-                      Resultado Preliminar já Disponível!
+                      Resultados <span className='text-secondary'>Preliminar</span> e <span className='text-secondary'>Final</span> já Disponíveis!
                     </h3>
                   </div>
                   <p className="text-md text-gray-600 mb-6 leading-relaxed">
-                    Confira agora o resultado preliminar do processo seletivo do SerTão Inovador
+                    Confira agora os resultados preliminar e final do processo seletivo do SerTão Inovador
                   </p>
-                  <a target='_blank'
+                  <div className='flex flex-wrap items-center justify-center gap-2'>
+                     <a target='_blank'
                     href="https://ifsertaope.edu.br/wp-content/uploads/2025/05/Resultado_preliminar.pdf"
                     className="inline-flex items-center gap-3 bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white font-normal px-8 py-4 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 text-md"
                   >
 
-                    <CiViewList className='h-6 w-6 text-sm'/> Confira aqui!
+                    <CiViewList className='h-6 w-6 text-sm'/>Resultado Preliminar
                   </a>
+
+                    <a target='_blank'
+                    href="https://ifsertaope.edu.br/wp-content/uploads/2025/05/Resultado_Final_assinado.pdf"
+                    className="inline-flex items-center gap-3 bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white font-normal px-8 py-4 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 text-md"
+                  >
+
+                    <TbChecklist className='h-6 w-6 text-sm'/>Resultado Final
+                  </a>
+                  </div>
+                 
                 </div>
               </div>
             </div>
